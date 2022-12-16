@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>SnickPic</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221216222102">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap&_v=20221216222102" rel="stylesheet">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="menu__wrapper">
+				<nav>
+					<div class="__container">
+						<div class="navbar">
+							<div class="logo"> <a href="#"> <img src="img/logo.svg" alt="logo"> </a> </div>
+							<ul class="menu">
+								<li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Product </a></li>
+								<li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Use Case</a></li>
+								<li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Learn</a></li>
+								<li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Comparison</a></li>
+								<li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Pricing</a></li>
+								<li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Contact Sales</a></li>
+							</ul>
+							<div class="menu__left-buttons">
+								<div class="menu__btns ">
+									<button type="button" class="menu__btn "><a href="#">Sign up</a></button>
+								</div>
+								<div class="select__wrapper">
+									<!-- Select -->
+									<div id="select">
+										<input type="hidden" class="hidden__input">
+									</div>
+								</div>
+								<div class="burger"><span></span></div>
+							</div>
+
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main class="page">
+			<div class="hero__container">
+				<div class="hero__section">
+					<div class="hero__left">
+						<div class="hero__text">
+							<h1 class="hero__title">
+								your agency.
+								<span>in a box.</span>
+							</h1>
+							<p>All of your work in one place. And much more</p>
+							<form action="files/sendmail/sendmail.php" method="POST">
+								<input type="text" name="form[email]" data-error="Error" placeholder="Enter your email address" class="hero__input"><br>
+								<div class="hero__under-input">
+									<button type="submit" class="btn__sing-up">Sign Up</button>
+									<span class="hero__btn-span">
+										AND BE PART OF<br>
+										THE CLOSED BETA
+									</span>
+								</div>
+							</form>
+
+						</div>
+						<div class="hero__images">
+							<ul class="hero__stars-list">
+								<li class="hero__star-list-item"></li>
+								<li class="hero__star-list-item"></li>
+								<li class="hero__star-list-item"></li>
+								<li class="hero__star-list-item"></li>
+								<li class="hero__star-list-item"></li>
+							</ul>
+							<p>Based on 100+ marketers reviews on</p>
+						</div>
+						<div class="hero__company">
+							<ul class="hero__company-list">
+								<li class="hero__company-list-ltem"><picture><source srcset="img/hero-company-1.webp" type="image/webp"><img src="img/hero-company-1.png" alt="img"></picture></li>
+								<li class="hero__company-list-ltem"><picture><source srcset="img/hero-company-2.webp" type="image/webp"><img src="img/hero-company-2.png" alt="img"></picture></li>
+								<li class="hero__company-list-ltem"><picture><source srcset="img/hero-company-3.webp" type="image/webp"><img src="img/hero-company-3.png" alt="img"></picture></li>
+							</ul>
+						</div>
+					</div>
+					<img src="img/hero.svg" alt="img">
+				</div>
+			</div>
+			<div class="section">
+				<div class="section__container">
+					<div data-tabs class="section-tabs">
+						<nav data-tabs-titles class="section-tabs__navigation">
+							<button type="button" class="section-tabs__title _tab-active">create</button>
+							<button type="button" class="section-tabs__title">manage</button>
+							<button type="button" class="section-tabs__title">automate</button>
+							<button type="button" class="section-tabs__title">chat</button>
+							<button type="button" class="section-tabs__title">delegate</button>
+						</nav>
+						<div data-tabs-body class="section-tabs__content">
+							<div class="section-tabs__body ">
+								<div class="section-nav-content">
+									<div class="section__text">
+										<h2>all your creative tasks <span>simplified<br> with AI.</span></h2>
+										<p>Get content ideas, generate captions that respects brand’s tone of voice, design and plan your publications all in one place</p>
+										<span class="section__replace">REPLACES</span>
+										<ul class="section__replace-list">
+											<li class="section__replace-list-item">Feedly</li>
+											<li class="section__replace-list-item">Canva</li>
+											<li class="section__replace-list-item">Copy.ai</li>
+											<li class="section__replace-list-item">Hootsuite</li>
+										</ul>
+										<button href="#" class="btn__sing-up">Sign Up</button>
+									</div>
+									<div class="section__content-img"><img src="img/creare-img.svg" alt="img"></div>
+								</div>
+							</div>
+							<div class="section-tabs__body">
+								<div class="section-nav-content">
+									<div class="section__text">
+										<h2>transparency over all the <span>work ahead of you.</span></h2>
+										<p>Plan, track, and manage all your work with project management that flexes to your team's needs.</p>
+										<span class="section__replace">REPLACES</span>
+										<ul class="section__replace-list">
+											<li class="section__replace-list-item">Asana</li>
+											<li class="section__replace-list-item">Monday</li>
+										</ul>
+										<button href="#" class="btn__sing-up">Sign Up</button>
+									</div>
+									<div class="section__content-img"><img src="img/manage-img.svg" alt="img"></div>
+								</div>
+							</div>
+							<div class="section-tabs__body">
+								<div class="section-nav-content">
+									<div class="section__text">
+										<h2>your entire workflow <span>on<br> autopilot.</span></h2>
+										<p>Eliminate the busywork and focus on what matters with hundreds of Automations. Automatically assign tasks, post comments, update statuses, and sync with other tools.</p>
+										<span class="section__replace">REPLACES</span>
+										<ul class="section__replace-list">
+											<li class="section__replace-list-item">UiPath</li>
+											<li class="section__replace-list-item">Zapier</li>
+											<li class="section__replace-list-item">Airtable</li>
+										</ul>
+										<button href="#" class="btn__sing-up">Sign Up</button>
+									</div>
+									<div class="section__content-img"><img src="img/automate-img.svg" alt="img"></div>
+								</div>
+							</div>
+							<div class="section-tabs__body">
+								<div class="section-nav-content">
+									<div class="section__text">
+										<h2>one single chat<br> <span> to rule<br> them all. </span></span></h2>
+										<p>Work smarter as a team with real-time chat. All your client-facing conversations are automatically bridged to Whatsapp</p>
+										<span class="section__replace">REPLACES</span>
+										<ul class="section__replace-list">
+											<li class="section__replace-list-item">Slack</li>
+											<li class="section__replace-list-item">MS Teams</li>
+											<li class="section__replace-list-item">Whatsapp</li>
+										</ul>
+										<button href="#" class="btn__sing-up">Sign Up</button>
+									</div>
+									<div class="section__content-img"><img src="img/chat-img.svg" alt="img"></div>
+								</div>
+							</div>
+							<div class="section-tabs__body">
+								<div class="section-nav-content">
+									<div class="section__text">
+										<h2>find the right teammates to <span>get things done.</span></h2>
+										<p>Access the largest network of marketing professional to delegate your tasks and automatically orchestrate payment across teams and clients</p>
+										<span class="section__replace">REPLACES</span>
+										<ul class="section__replace-list">
+											<li class="section__replace-list-item">Upwork</li>
+											<li class="section__replace-list-item">Malt</li>
+											<li class="section__replace-list-item">Fiverr</li>
+										</ul>
+										<button href="#" class="btn__sing-up">Sign Up</button>
+									</div>
+									<div class="section__content-img"><img src="img/delegate-img.svg" alt="img"></div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="selling__container">
+				<ul class="selling__div-list">
+					<li class="selling__div-list-item-right">
+						<h2>stop <span>selling yourself.</span></h2>
+						<p>There is more in life than prospection. Just focus on your craft and let us take care of the rest</p>
+					</li>
+					<li class="selling__div-list-item-left">
+						<ul class="selling__item-left-list">
+							<li class="selling__left-list-item">
+								<img src="img/selling-left-list-img-1.svg" alt="img">
+								<span class="selling__left-list-span">dedicated landing page</span>
+								<p>When onboarding on snikpic, you will have your own dedicated and shareable landing page optimized for conversion.</p>
+							</li>
+							<li class="selling__left-list-item">
+								<img src="img/selling-left-list-img-2.svg" alt="img">
+								<span class="selling__left-list-span">purchasable prospect</span>
+								<p>Use snikpic’s experience running ads and only buy from us prospect who have shown direct interest in your profile. We take care of the rest</p>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="pricing__container">
+				<div class="pricing__left">
+					<h2>one simple <span>pricing.</span></h2>
+					<div class="pricing__ultimates">
+						<ul class="ultimates__list">
+							<div class="ultimates__list-items-left">
+								<li class="ultimates__list-item ultimates__featuers">Ultimated featuers</li>
+								<li class="ultimates__list-item ultimates__workflows">Unlimited workflows</li>
+								<li class="ultimates__list-item ultimates__meeting">Unlimited meeting</li>
+							</div>
+							<div class="ultimates__list-items-right">
+								<li class="ultimates__list-item ultimates__members">Unlimited members</li>
+								<li class="ultimates__list-item ultimates__calendars">Unlimited calendars</li>
+							</div>
+						</ul>
+					</div>
+					<button class="btn__sing-up">Sign Up</button>
+				</div>
+				<div class="pricing__right">
+					<img src="img/pricing-bg.svg" alt="img">
+					<div class="pricing__right-text">
+						<span class="pricing__right-span">49€</span>
+						<span class="pricing__right-under-span">/ client / month</span>
+					</div>
+				</div>
+			</div>
+			<!-- Оболочка слайдера -->
+			<div class="review__slider swiper">
+				<!-- Двигающееся часть слайдера -->
+				<div class="review__wrapper swiper-wrapper">
+					<!-- Слайд -->
+					<div class="review__slide swiper-slide">
+						<div class="review__slide-content">
+							<div class="review__slide-avatars">
+								<picture><source srcset="img/review-avatar.webp" type="image/webp"><img src="img/review-avatar.png" alt="img"></picture>
+								<a href="#"><img src="img/review-avatar-link.svg" alt="link"></a>
+							</div>
+							<div class="review__slide-text">
+								<span>Christophe Bourand, ChrisWebMarketing</span>
+								<p>Juggling with all my clients and making sure everything was done correctly took me a lot of
+									energy. Not did Snikpic enabled me to tremendously release that extra useless work, but I
+									quickly found myself able to take on much more clients than I originally could </p>
+								<picture><source srcset="img/slider-img.webp" type="image/webp"><img src="img/slider-img.png" alt="img"></picture>
+							</div>
+						</div>
+					</div>
+					<div class="review__slide swiper-slide active">
+						<div class="review__slide-content">
+							<div class="review__slide-avatars">
+								<picture><source srcset="img/review-avatar.webp" type="image/webp"><img src="img/review-avatar.png" alt="img"></picture>
+								<a href="#"><img src="img/review-avatar-link.svg" alt="link"></a>
+							</div>
+							<div class="review__slide-text">
+								<span>Christophe Bourand, ChrisWebMarketing</span>
+								<p>Juggling with all my clients and making sure everything was done correctly took me a lot of
+									energy. Not did Snikpic enabled me to tremendously release that extra useless work, but I
+									quickly found myself able to take on much more clients than I originally could </p>
+								<picture><source srcset="img/slider-img.webp" type="image/webp"><img src="img/slider-img.png" alt="img"></picture>
+							</div>
+						</div>
+					</div>
+					<div class="review__slide swiper-slide">
+						<div class="review__slide-content">
+							<div class="review__slide-avatars">
+								<picture><source srcset="img/review-avatar.webp" type="image/webp"><img src="img/review-avatar.png" alt="img"></picture>
+								<a href="#"><img src="img/review-avatar-link.svg" alt="link"></a>
+							</div>
+							<div class="review__slide-text">
+								<span>Christophe Bourand, ChrisWebMarketing</span>
+								<p>Juggling with all my clients and making sure everything was done correctly took me a lot of
+									energy. Not did Snikpic enabled me to tremendously release that extra useless work, but I
+									quickly found myself able to take on much more clients than I originally could </p>
+								<picture><source srcset="img/slider-img.webp" type="image/webp"><img src="img/slider-img.png" alt="img"></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Если нужна навигация (влево/вправо) -->
+				<button type="button" class="swiper-button-prev"></button>
+				<button type="button" class="swiper-button-next"></button>
+			</div>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="apply">
+					<div class="apply__container">
+						<div class="apply__section">
+							<h2>apply to our <span>closed beta.</span></h2>
+							<div class="apply__forms">
+								<form class="contacts__form">
+									<ul class="apply__forms-list">
+										<div class="apply__forms-list-container">
+											<li class="apply__form-list-item">
+												<label>
+													<span>Name</span>
+													<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Let’s not be strangers" class="input">
+												</label>
+											</li>
+											<li class="apply__form-list-item">
+												<label>
+													<span>Phone Number</span>
+													<input autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="470000000" class="input">
+												</label>
+											</li>
+										</div>
+										<div class="apply__forms-list-container">
+											<li class="apply__form-list-item">
+												<label>
+													<span>Website</span>
+													<input autocomplete="off" type="url" name="form[]" data-error="Ошибка" placeholder="Put the URL right there" class="input">
+												</label>
+											</li>
+											<li class="apply__form-list-item">
+												<label>
+													<span>Email Address</span>
+													<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="That’s right, we need your email" class="input">
+												</label>
+											</li>
+										</div>
+									</ul>
+									<button class="btn__sing-up" type="submit">Send</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__content">
+					<div class="footer__content-left">
+						<a href="#" class="header__logo"><img src="img/footer-logo.svg" alt="logo"></a>
+						<ul class="footer__social-list">
+							<li class="footer__social-list-item footer__social-list-link-face">
+								<a href="#"></a>
+							</li>
+							<li class="footer__social-list-item footer__social-list-link-inst">
+								<a href="#"></a>
+							</li>
+							<li class="footer__social-list-item footer__social-list-link-linked">
+								<a href="#"></a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__content-right">
+						<ul class="footer__navigation">
+							<div>
+								<li class="footer__navigation-item">
+									<ul>
+										<li><a href="#">About us</a></li>
+										<li><a href="#">Blog</a></li>
+									</ul>
+								</li>
+							</div>
+							<div>
+								<li class="footer__navigation-item">
+									<ul>
+										<li><a href="#">Legal</a></li>
+										<li><a href="#">Privacy Policy</a></li>
+										<li><a href="#">Terms and conditions</a></li>
+									</ul>
+								</li>
+							</div>
+							<div>
+								<li class="footer__navigation-item">
+									<ul>
+										<li><a href="#">Help</a></li>
+										<li><a href="#">Contact us</a></li>
+									</ul>
+								</li>
+							</div>
+						</ul>
+					</div>
+				</div>
+				<span class="footer__buttom-span">
+					S SRL - VAT BE0729.842.450 - contact@s.io - Avenue Armand Huysmans 157,1050 Bruxelies
+				</span>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20221216222102"></script>
+</body>
+
+</html>
